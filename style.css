@@ -16,12 +16,13 @@
 html,
 body {
 	min-height: 100vh;
+	background-color: darkgrey;
 	font-family: var(--fonte1);
 }
 
 header {
 	background-color: black;
-	color: rgb(255, 255, 255);
+	color: white;
 	text-align: center;
 	padding: 20px;
 }
@@ -62,12 +63,12 @@ section > p {
 }
 
 section.normal {
-	background-color: rgb(231, 229, 229);
+	background-color: white;
 	color: black;
 }
 
 section.imagem {
-	background-color: rgb(230, 230, 230);
+	background-color: rgb(85, 85, 85);
 	color: rgb(255, 255, 255);
 	box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
     background-attachment: fixed;
